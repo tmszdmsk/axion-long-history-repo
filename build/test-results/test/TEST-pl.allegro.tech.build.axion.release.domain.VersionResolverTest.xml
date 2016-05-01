@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.allegro.tech.build.axion.release.domain.VersionResolverTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2017-05-29T16:15:02" hostname="TomekBook.local" time="0.736">
+  <properties/>
+  <testcase name="should return default previous and current version when no tag in repository" classname="pl.allegro.tech.build.axion.release.domain.VersionResolverTest" time="0.029"/>
+  <testcase name="should return same previous and current version when on release tag" classname="pl.allegro.tech.build.axion.release.domain.VersionResolverTest" time="0.035"/>
+  <testcase name="should pick tag with highest version when multiple tags on last commit" classname="pl.allegro.tech.build.axion.release.domain.VersionResolverTest" time="0.043"/>
+  <testcase name="should return unmodified previous and incremented current version when not on tag" classname="pl.allegro.tech.build.axion.release.domain.VersionResolverTest" time="0.042"/>
+  <testcase name="should return previous version from last release tag and current from next version when on next version tag" classname="pl.allegro.tech.build.axion.release.domain.VersionResolverTest" time="0.063"/>
+  <testcase name="should return previous version from last release and current from forced version when forcing version" classname="pl.allegro.tech.build.axion.release.domain.VersionResolverTest" time="0.044"/>
+  <testcase name="should still return the same versions when the final tag is tagged as the release" classname="pl.allegro.tech.build.axion.release.domain.VersionResolverTest" time="0.093"/>
+  <testcase name="should still return the same versions when the final tag is tagged as the release with multi-tags" classname="pl.allegro.tech.build.axion.release.domain.VersionResolverTest" time="0.072"/>
+  <testcase name="should still return the same versions when the final tag is tagged as the release with multi-tags reversed" classname="pl.allegro.tech.build.axion.release.domain.VersionResolverTest" time="0.069"/>
+  <testcase name="should return the highest version from the tagged versions" classname="pl.allegro.tech.build.axion.release.domain.VersionResolverTest" time="0.063"/>
+  <testcase name="should return the highest version from the tagged versions when not on release" classname="pl.allegro.tech.build.axion.release.domain.VersionResolverTest" time="0.059"/>
+  <testcase name="should return the last version as release from the tagged versions no highest version option selected" classname="pl.allegro.tech.build.axion.release.domain.VersionResolverTest" time="0.056"/>
+  <testcase name="should return the last version from the tagged versions no highest version option selected" classname="pl.allegro.tech.build.axion.release.domain.VersionResolverTest" time="0.066"/>
+  <system-out><![CDATA[Version Resolved: VersionContext{version=1.5.1, snapshot=true, previousVersion=1.5.0, position=ScmPosition[revision = ad9fcb1b26bf74e843c39dc88539b602abdfe8cc, shortRevision = ad9fcb1, branch = master]}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

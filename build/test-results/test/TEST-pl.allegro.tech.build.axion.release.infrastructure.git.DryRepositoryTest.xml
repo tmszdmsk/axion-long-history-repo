@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.allegro.tech.build.axion.release.infrastructure.git.DryRepositoryTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-05-29T16:15:04" hostname="TomekBook.local" time="0.023">
+  <properties/>
+  <testcase name="should not create actual tags in scm" classname="pl.allegro.tech.build.axion.release.infrastructure.git.DryRepositoryTest" time="0.01"/>
+  <testcase name="should not push anything to scm" classname="pl.allegro.tech.build.axion.release.infrastructure.git.DryRepositoryTest" time="0.004"/>
+  <testcase name="should not commit anything to scm" classname="pl.allegro.tech.build.axion.release.infrastructure.git.DryRepositoryTest" time="0.001"/>
+  <testcase name="should return latest tags from real scm" classname="pl.allegro.tech.build.axion.release.infrastructure.git.DryRepositoryTest" time="0.004"/>
+  <testcase name="should check uncommitted changes on real scm" classname="pl.allegro.tech.build.axion.release.infrastructure.git.DryRepositoryTest" time="0.002"/>
+  <testcase name="should check ahead of remote on real scm" classname="pl.allegro.tech.build.axion.release.infrastructure.git.DryRepositoryTest" time="0.002"/>
+  <system-out><![CDATA[DRY-RUN: creating tag with name: dry_tag
+DRY-RUN: pushing to remote: dry-remote
+DRY-RUN: commiting files matching [*] with message: yo
+DRY-RUN: Latest tags: []
+DRY-RUN: uncommitted changes: true
+DRY-RUN: ahead of remote: true
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

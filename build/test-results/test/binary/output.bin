@@ -1,0 +1,21 @@
+óReplacing pattern "^(version.) 1.0.0$" with "$1 2.0.0" in /private/var/folders/fw/6q1wqt853rdgjxgf9215m95r0000gp/T/axion-release9172200457003717977.tmp
+âReplacing pattern "1.0.0$" with "2.0.0" in /private/var/folders/fw/6q1wqt853rdgjxgf9215m95r0000gp/T/axion-release16773626390735744508.tmp
+âReplacing pattern "1.0.0$" with "2.0.0" in /private/var/folders/fw/6q1wqt853rdgjxgf9215m95r0000gp/T/axion-release24798466691558452956.tmp
+5Creating next version marker tag: release-2.0.0-alpha
+%Changes made to local repository only
+%$Creating tag: release-2.0.0%$
+%&6Working on released version 1.0.0, nothing to release.%&
+%'Creating tag: release-3.0.0-rc4%'
+%(:Working on released version 3.0.0-rc4, nothing to release.%(
+%)Creating tag: release-3.0.1%)
+%*Creating tag: release-3.0.0%*
+%+Creating tag: release-3.2.0%+
+DMÀVersion Resolved: VersionContext{version=1.5.1, snapshot=true, previousVersion=1.5.0, position=ScmPosition[revision = ad9fcb1b26bf74e843c39dc88539b602abdfe8cc, shortRevision = ad9fcb1, branch = master]}
+egMUsing deprecated parameter: release.nextVersion! Use release.version instead.eg
+ÖÜ‹Failed to open repository, trying to work without it org.eclipse.jgit.errors.RepositoryNotFoundException: repository not found: /private/var/folders/fw/6q1wqt853rdgjxgf9215m95r0000gp/T/gradle5712606199337262882projectDirÖÜ
+âà(DRY-RUN: creating tag with name: dry_tagâà
+âä&DRY-RUN: pushing to remote: dry-remoteâä
+âã6DRY-RUN: commiting files matching [*] with message: yoâã
+âåDRY-RUN: Latest tags: []âå
+âç"DRY-RUN: uncommitted changes: trueâç
+âéDRY-RUN: ahead of remote: trueâé

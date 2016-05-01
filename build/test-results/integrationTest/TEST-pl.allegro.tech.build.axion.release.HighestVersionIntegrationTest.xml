@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.allegro.tech.build.axion.release.HighestVersionIntegrationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-05-29T16:14:42" hostname="TomekBook.local" time="10.4">
+  <properties/>
+  <testcase name="should return tag with highest version when there are multiple releases on single commit" classname="pl.allegro.tech.build.axion.release.HighestVersionIntegrationTest" time="8.05"/>
+  <testcase name="should return tag with highest version when there are normal and alpha releases on single commit" classname="pl.allegro.tech.build.axion.release.HighestVersionIntegrationTest" time="0.522"/>
+  <testcase name="should return tag with last version if useHighestVersion is set to false" classname="pl.allegro.tech.build.axion.release.HighestVersionIntegrationTest" time="0.661"/>
+  <testcase name="should return tag with highest version if useHighestVersion is set to true" classname="pl.allegro.tech.build.axion.release.HighestVersionIntegrationTest" time="0.481"/>
+  <testcase name="should return release tag with highest version if useHighestVersion is set to true" classname="pl.allegro.tech.build.axion.release.HighestVersionIntegrationTest" time="0.686"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

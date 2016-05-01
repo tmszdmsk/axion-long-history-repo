@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.allegro.tech.build.axion.release.domain.NextVersionMarkerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-05-29T16:14:59" hostname="TomekBook.local" time="0.173">
+  <properties/>
+  <testcase name="should create next version tag with given version" classname="pl.allegro.tech.build.axion.release.domain.NextVersionMarkerTest" time="0.173"/>
+  <system-out><![CDATA[Creating next version marker tag: release-2.0.0-alpha
+Changes made to local repository only
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

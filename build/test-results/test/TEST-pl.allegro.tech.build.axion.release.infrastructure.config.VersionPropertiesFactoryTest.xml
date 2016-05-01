@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.allegro.tech.build.axion.release.infrastructure.config.VersionPropertiesFactoryTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2017-05-29T16:15:04" hostname="TomekBook.local" time="0.133">
+  <properties/>
+  <testcase name="should copy non-project properties from VersionConfig object" classname="pl.allegro.tech.build.axion.release.infrastructure.config.VersionPropertiesFactoryTest" time="0.02"/>
+  <testcase name="should return forceVersion false when project has no 'release.version' property" classname="pl.allegro.tech.build.axion.release.infrastructure.config.VersionPropertiesFactoryTest" time="0.006"/>
+  <testcase name="should return forceVersion false when project has 'release.version' property with empty value" classname="pl.allegro.tech.build.axion.release.infrastructure.config.VersionPropertiesFactoryTest" time="0.005"/>
+  <testcase name="should return forceVersion true when project has 'release.version' property with non-empty value" classname="pl.allegro.tech.build.axion.release.infrastructure.config.VersionPropertiesFactoryTest" time="0.006"/>
+  <testcase name="should return trimmed forcedVersion when project has 'release.Version' property with leading or trailing spaces" classname="pl.allegro.tech.build.axion.release.infrastructure.config.VersionPropertiesFactoryTest" time="0.005"/>
+  <testcase name="should return forceVersion true when project has deprecated 'release.forceVersion' property with non-empty value" classname="pl.allegro.tech.build.axion.release.infrastructure.config.VersionPropertiesFactoryTest" time="0.004"/>
+  <testcase name="should return ignore uncommitted changes flag from version config when no project flag present" classname="pl.allegro.tech.build.axion.release.infrastructure.config.VersionPropertiesFactoryTest" time="0.005"/>
+  <testcase name="should return ignore uncommitted changes as true when project flag present" classname="pl.allegro.tech.build.axion.release.infrastructure.config.VersionPropertiesFactoryTest" time="0.006"/>
+  <testcase name="should pick default version creator if none branch creators match" classname="pl.allegro.tech.build.axion.release.infrastructure.config.VersionPropertiesFactoryTest" time="0.008"/>
+  <testcase name="should pick version creator suitable for current branch if defined in per branch creators" classname="pl.allegro.tech.build.axion.release.infrastructure.config.VersionPropertiesFactoryTest" time="0.009"/>
+  <testcase name="should use predefined version creator when supplied with String in per branch creators" classname="pl.allegro.tech.build.axion.release.infrastructure.config.VersionPropertiesFactoryTest" time="0.006"/>
+  <testcase name="should use version creator passed as command line option if present" classname="pl.allegro.tech.build.axion.release.infrastructure.config.VersionPropertiesFactoryTest" time="0.006"/>
+  <testcase name="should pick default version incrementer if none branch incrementers match" classname="pl.allegro.tech.build.axion.release.infrastructure.config.VersionPropertiesFactoryTest" time="0.007"/>
+  <testcase name="should pick version incrementer suitable for current branch if defined in per branch incrementer" classname="pl.allegro.tech.build.axion.release.infrastructure.config.VersionPropertiesFactoryTest" time="0.007"/>
+  <testcase name="should use predefined incrementer creator when supplied with String in per branch incrementer" classname="pl.allegro.tech.build.axion.release.infrastructure.config.VersionPropertiesFactoryTest" time="0.012"/>
+  <testcase name="should use predefined incrementer creator with config options when supplied with String in per branch incrementer" classname="pl.allegro.tech.build.axion.release.infrastructure.config.VersionPropertiesFactoryTest" time="0.008"/>
+  <testcase name="should use incrementer passed as command line option if present" classname="pl.allegro.tech.build.axion.release.infrastructure.config.VersionPropertiesFactoryTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

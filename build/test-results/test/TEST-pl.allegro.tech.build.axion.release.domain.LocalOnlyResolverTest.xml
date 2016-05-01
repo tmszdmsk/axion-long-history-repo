@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.allegro.tech.build.axion.release.domain.LocalOnlyResolverTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-05-29T16:14:59" hostname="TomekBook.local" time="0.003">
+  <properties/>
+  <testcase name="should resolve to localOnly when base value is true property present" classname="pl.allegro.tech.build.axion.release.domain.LocalOnlyResolverTest" time="0.001"/>
+  <testcase name="should resolve to localOnly when remote is not attached" classname="pl.allegro.tech.build.axion.release.domain.LocalOnlyResolverTest" time="0.001"/>
+  <testcase name="should not resolve to localOnly remote is present" classname="pl.allegro.tech.build.axion.release.domain.LocalOnlyResolverTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

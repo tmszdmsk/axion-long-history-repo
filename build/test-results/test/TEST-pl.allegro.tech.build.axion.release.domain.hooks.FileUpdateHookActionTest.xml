@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.allegro.tech.build.axion.release.domain.hooks.FileUpdateHookActionTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-05-29T16:14:59" hostname="TomekBook.local" time="0.045">
+  <properties/>
+  <testcase name="should update file by executing given regexp" classname="pl.allegro.tech.build.axion.release.domain.hooks.FileUpdateHookActionTest" time="0.037"/>
+  <testcase name="should update all listed files" classname="pl.allegro.tech.build.axion.release.domain.hooks.FileUpdateHookActionTest" time="0.008"/>
+  <system-out><![CDATA[Replacing pattern "^(version.) 1.0.0$" with "$1 2.0.0" in /private/var/folders/fw/6q1wqt853rdgjxgf9215m95r0000gp/T/axion-release9172200457003717977.tmp
+Replacing pattern "1.0.0$" with "2.0.0" in /private/var/folders/fw/6q1wqt853rdgjxgf9215m95r0000gp/T/axion-release16773626390735744508.tmp
+Replacing pattern "1.0.0$" with "2.0.0" in /private/var/folders/fw/6q1wqt853rdgjxgf9215m95r0000gp/T/axion-release24798466691558452956.tmp
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

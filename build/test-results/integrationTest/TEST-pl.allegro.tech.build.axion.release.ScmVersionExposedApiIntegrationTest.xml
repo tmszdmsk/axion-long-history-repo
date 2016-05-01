@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.allegro.tech.build.axion.release.ScmVersionExposedApiIntegrationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-05-29T16:14:53" hostname="TomekBook.local" time="0.646">
+  <properties/>
+  <testcase name="should return final version scmVersion.version" classname="pl.allegro.tech.build.axion.release.ScmVersionExposedApiIntegrationTest" time="0.263"/>
+  <testcase name="should return version before any decorations at scmVersion.undecoratedVersion" classname="pl.allegro.tech.build.axion.release.ScmVersionExposedApiIntegrationTest" time="0.165"/>
+  <testcase name="should return scm position from which version was read at scmVersion.scmPosition" classname="pl.allegro.tech.build.axion.release.ScmVersionExposedApiIntegrationTest" time="0.217"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

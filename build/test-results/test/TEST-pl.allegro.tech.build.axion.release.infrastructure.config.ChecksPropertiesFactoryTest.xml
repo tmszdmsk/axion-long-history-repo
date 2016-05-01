@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.allegro.tech.build.axion.release.infrastructure.config.ChecksPropertiesFactoryTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-05-29T16:15:03" hostname="TomekBook.local" time="0.038">
+  <properties/>
+  <testcase name="should return default value from config when no project properties are present" classname="pl.allegro.tech.build.axion.release.infrastructure.config.ChecksPropertiesFactoryTest" time="0.01"/>
+  <testcase name="should always return false if checks are globally disabled using release.disableChecks" classname="pl.allegro.tech.build.axion.release.infrastructure.config.ChecksPropertiesFactoryTest" time="0.007"/>
+  <testcase name="should skip uncommitted changes check if it was disabled using project property" classname="pl.allegro.tech.build.axion.release.infrastructure.config.ChecksPropertiesFactoryTest" time="0.009"/>
+  <testcase name="should skip ahead of remote check if it was disabled using project property" classname="pl.allegro.tech.build.axion.release.infrastructure.config.ChecksPropertiesFactoryTest" time="0.006"/>
+  <testcase name="should skip snapshots check if it was disabled using project property" classname="pl.allegro.tech.build.axion.release.infrastructure.config.ChecksPropertiesFactoryTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

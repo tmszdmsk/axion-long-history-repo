@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.allegro.tech.build.axion.release.VerifyReleaseIntegrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-05-29T16:14:54" hostname="TomekBook.local" time="0.222">
+  <properties/>
+  <testcase name="should print changes in Git as seen by axion-release" classname="pl.allegro.tech.build.axion.release.VerifyReleaseIntegrationTest" time="0.222"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.allegro.tech.build.axion.release.domain.VersionSanitizerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-05-29T16:15:03" hostname="TomekBook.local" time="0.001">
+  <properties/>
+  <testcase name="should sanitize version containing wrong characters" classname="pl.allegro.tech.build.axion.release.domain.VersionSanitizerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.allegro.tech.build.axion.release.infrastructure.config.ScmIdentityFactoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-05-29T16:15:03" hostname="TomekBook.local" time="0.017">
+  <properties/>
+  <testcase name="should return default identity when no key set" classname="pl.allegro.tech.build.axion.release.infrastructure.config.ScmIdentityFactoryTest" time="0.006"/>
+  <testcase name="should return custom identity when key set" classname="pl.allegro.tech.build.axion.release.infrastructure.config.ScmIdentityFactoryTest" time="0.003"/>
+  <testcase name="should read key contents from file when file passed as key" classname="pl.allegro.tech.build.axion.release.infrastructure.config.ScmIdentityFactoryTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

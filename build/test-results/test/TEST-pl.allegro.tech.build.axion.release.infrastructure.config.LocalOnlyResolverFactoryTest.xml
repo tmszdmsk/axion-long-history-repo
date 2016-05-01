@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.allegro.tech.build.axion.release.infrastructure.config.LocalOnlyResolverFactoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-05-29T16:15:03" hostname="TomekBook.local" time="0.019">
+  <properties/>
+  <testcase name="should resolve to localOnly when project release.localOnly property present" classname="pl.allegro.tech.build.axion.release.infrastructure.config.LocalOnlyResolverFactoryTest" time="0.013"/>
+  <testcase name="should resolve to localOnly when config has localOnly flag set" classname="pl.allegro.tech.build.axion.release.infrastructure.config.LocalOnlyResolverFactoryTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

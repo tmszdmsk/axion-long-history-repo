@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.allegro.tech.build.axion.release.SimpleIntegrationTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-05-29T16:14:53" hostname="TomekBook.local" time="0.827">
+  <properties/>
+  <testcase name="should return default version on calling currentVersion task on vanilla repo" classname="pl.allegro.tech.build.axion.release.SimpleIntegrationTest" time="0.133"/>
+  <testcase name="should return only version when calling cV with -Prelease.quiet" classname="pl.allegro.tech.build.axion.release.SimpleIntegrationTest" time="0.138"/>
+  <testcase name="should return released version on calling cV on repo with release commit" classname="pl.allegro.tech.build.axion.release.SimpleIntegrationTest" time="0.246"/>
+  <testcase name="should update file in pre release hook" classname="pl.allegro.tech.build.axion.release.SimpleIntegrationTest" time="0.31"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.allegro.tech.build.axion.release.infrastructure.di.ScmRepositoryFactoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-05-29T16:15:04" hostname="TomekBook.local" time="0.079">
+  <properties/>
+  <testcase name="should return git repository by default" classname="pl.allegro.tech.build.axion.release.infrastructure.di.ScmRepositoryFactoryTest" time="0.011"/>
+  <testcase name="should return dummy repository when underlying repository is not initialized" classname="pl.allegro.tech.build.axion.release.infrastructure.di.ScmRepositoryFactoryTest" time="0.056"/>
+  <testcase name="should throw exception when trying to construct unknown type of repository" classname="pl.allegro.tech.build.axion.release.infrastructure.di.ScmRepositoryFactoryTest" time="0.012"/>
+  <system-out><![CDATA[Failed to open repository, trying to work without it org.eclipse.jgit.errors.RepositoryNotFoundException: repository not found: /private/var/folders/fw/6q1wqt853rdgjxgf9215m95r0000gp/T/gradle5712606199337262882projectDir
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

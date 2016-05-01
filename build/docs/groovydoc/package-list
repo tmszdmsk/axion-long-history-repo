@@ -1,0 +1,12 @@
+pl.allegro.tech.build.axion.release
+pl.allegro.tech.build.axion.release.domain
+pl.allegro.tech.build.axion.release.domain.hooks
+pl.allegro.tech.build.axion.release.domain.logging
+pl.allegro.tech.build.axion.release.domain.properties
+pl.allegro.tech.build.axion.release.domain.scm
+pl.allegro.tech.build.axion.release.infrastructure
+pl.allegro.tech.build.axion.release.infrastructure.config
+pl.allegro.tech.build.axion.release.infrastructure.di
+pl.allegro.tech.build.axion.release.infrastructure.git
+pl.allegro.tech.build.axion.release.infrastructure.output
+pl.allegro.tech.build.axion.release.util

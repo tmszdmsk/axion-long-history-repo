@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.allegro.tech.build.axion.release.domain.ReleaserTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-05-29T16:14:59" hostname="TomekBook.local" time="0.763">
+  <properties/>
+  <testcase name="should release new version when not on tag" classname="pl.allegro.tech.build.axion.release.domain.ReleaserTest" time="0.225"/>
+  <testcase name="should not release version when on tag" classname="pl.allegro.tech.build.axion.release.domain.ReleaserTest" time="0.099"/>
+  <testcase name="should release with forced pre-released versions" classname="pl.allegro.tech.build.axion.release.domain.ReleaserTest" time="0.085"/>
+  <testcase name="should not release version when on pre-released version tag" classname="pl.allegro.tech.build.axion.release.domain.ReleaserTest" time="0.082"/>
+  <testcase name="should increment pre-released version correctly" classname="pl.allegro.tech.build.axion.release.domain.ReleaserTest" time="0.1"/>
+  <testcase name="should create release commit if configured" classname="pl.allegro.tech.build.axion.release.domain.ReleaserTest" time="0.081"/>
+  <testcase name="should create release commit when on tag but forced" classname="pl.allegro.tech.build.axion.release.domain.ReleaserTest" time="0.087"/>
+  <system-out><![CDATA[Creating tag: release-2.0.0
+Working on released version 1.0.0, nothing to release.
+Creating tag: release-3.0.0-rc4
+Working on released version 3.0.0-rc4, nothing to release.
+Creating tag: release-3.0.1
+Creating tag: release-3.0.0
+Creating tag: release-3.2.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
